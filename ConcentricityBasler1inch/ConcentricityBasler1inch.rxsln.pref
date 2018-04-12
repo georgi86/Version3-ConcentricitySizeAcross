@@ -1,0 +1,13 @@
+﻿<Properties>
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{2DBBB13F-0AE9-4939-9E8B-033E27521E53}</string>
+      <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution ConcentricityBasler1inch[ConcentricityBasler1inch[]]]&#xD;&#xA;Solution ConcentricityBasler1inch\ConcentricityBasler1inch\Concentricity.rxrec&#xD;&#xA;Solution ConcentricityBasler1inch" />
+  <StartupProject value="{2DBBB13F-0AE9-4939-9E8B-033E27521E53}" />
+</Properties>

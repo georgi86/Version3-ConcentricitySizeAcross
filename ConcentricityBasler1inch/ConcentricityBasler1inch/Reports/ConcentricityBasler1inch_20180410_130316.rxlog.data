@@ -1,0 +1,623 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="18a25ce824f9f3fc"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="1"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="EVMX"
+		host="SNAPDM200"
+		rxversion="7.0.1.0"
+		osversion="Windows 7 Service Pack 1 32bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="4/10/2018 13:03:16"
+		timestampiso="2018-04-10T10:03:16"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="1.8m"
+			durationms="110855"
+			type="test-suite"
+			rid="2482855eb175dd4c"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="1"
+			totalfailedtestcasecount="0"
+			totalblockedtestcasecount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			testsuitename="ConcentricityBasler1inch"
+			headertext="ConcentricityBasler1inch"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Success"
+				duration="1.8m"
+				durationms="110850"
+				type="test-case"
+				rid="bd1018b6c5b863"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="1"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				totalsuccesscount="2"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				testcontainername="TestCase"
+				testcontainerid="b2e64ed5-0ac6-4050-814d-9cc4c340b0c4"
+				headertext="TestCase"
+				displayName="TestCase"
+				iteration="1"
+				activity-exectype="execute">
+				<activity
+					result="Success"
+					duration="46s"
+					durationms="46000"
+					type="test-module"
+					rid="928f15f7ba4a890"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="Concentricity"
+					displayName="Concentricity"
+					moduleid="0e7a1a40-a64d-4e00-91a5-70ea531cc6b6"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.057"
+						timeRelativeToTestModuleStartTime="00:00.002"
+						timeWallClock="13:03:16"
+						time="00:00.057"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'SnapXUntitled.Element94' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Snap-X - [Untitled]']/element[@controlid='94']"
+							fullname="ConcentricityBasler1inchRepository.SnapXUntitled.Element94"
+							id="120cb71da0f2471eb77ae9430ff5548c"
+							timeout="60000"
+							codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationConcentricity\ConcentricityBasler1inch\ConcentricityBasler1inch\Concentricity.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:01.203"
+						timeRelativeToTestModuleStartTime="00:01.148"
+						timeWallClock="13:03:17"
+						time="00:01.203"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '{LMenu}'.
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationConcentricity\ConcentricityBasler1inch\ConcentricityBasler1inch\Concentricity.cs"
+							codeline="86"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:01.480"
+						timeRelativeToTestModuleStartTime="00:01.425"
+						timeWallClock="13:03:17"
+						time="00:01.480"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'f'.
+						</message>
+						<metainfo
+							itemindex="2"
+							codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationConcentricity\ConcentricityBasler1inch\ConcentricityBasler1inch\Concentricity.cs"
+							codeline="90"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:01.773"
+						timeRelativeToTestModuleStartTime="00:01.718"
+						timeWallClock="13:03:18"
+						time="00:01.773"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'o'.
+						</message>
+						<metainfo
+							itemindex="3"
+							codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationConcentricity\ConcentricityBasler1inch\ConcentricityBasler1inch\Concentricity.cs"
+							codeline="94"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:02.079"
+						timeRelativeToTestModuleStartTime="00:02.024"
+						timeWallClock="13:03:18"
+						time="00:02.079"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 2s.
+						</message>
+						<metainfo
+							itemindex="4"
+							codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationConcentricity\ConcentricityBasler1inch\ConcentricityBasler1inch\Concentricity.cs"
+							codeline="98"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:04.193"
+						timeRelativeToTestModuleStartTime="00:04.138"
+						timeWallClock="13:03:20"
+						time="00:04.193"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'D:\Joro\GIT_Automations\VERSION 3\AutomationConcentricity\Routine\Concentricity_Basler1.mxy'.
+						</message>
+						<metainfo
+							itemindex="5"
+							codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationConcentricity\ConcentricityBasler1inch\ConcentricityBasler1inch\Concentricity.cs"
+							codeline="101"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:13.706"
+						timeRelativeToTestModuleStartTime="00:13.651"
+						timeWallClock="13:03:30"
+						time="00:13.706"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '{Return}'.
+						</message>
+						<metainfo
+							itemindex="6"
+							codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationConcentricity\ConcentricityBasler1inch\ConcentricityBasler1inch\Concentricity.cs"
+							codeline="105"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:14.022"
+						timeRelativeToTestModuleStartTime="00:13.967"
+						timeWallClock="13:03:30"
+						time="00:14.022"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'SnapXUntitled.Element94' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Snap-X - [Untitled]']/element[@controlid='94']"
+							fullname="ConcentricityBasler1inchRepository.SnapXUntitled.Element94"
+							id="120cb71da0f2471eb77ae9430ff5548c"
+							timeout="60000"
+							codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationConcentricity\ConcentricityBasler1inch\ConcentricityBasler1inch\Concentricity.cs"
+							codeline="109"
+							itemindex="7"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:15.788"
+						timeRelativeToTestModuleStartTime="00:15.733"
+						timeWallClock="13:03:32"
+						time="00:15.788"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '{LMenu}'.
+						</message>
+						<metainfo
+							itemindex="8"
+							codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationConcentricity\ConcentricityBasler1inch\ConcentricityBasler1inch\Concentricity.cs"
+							codeline="113"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:16.162"
+						timeRelativeToTestModuleStartTime="00:16.107"
+						timeWallClock="13:03:32"
+						time="00:16.162"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'f'.
+						</message>
+						<metainfo
+							itemindex="9"
+							codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationConcentricity\ConcentricityBasler1inch\ConcentricityBasler1inch\Concentricity.cs"
+							codeline="117"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:16.511"
+						timeRelativeToTestModuleStartTime="00:16.456"
+						timeWallClock="13:03:32"
+						time="00:16.511"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'r'.
+						</message>
+						<metainfo
+							itemindex="10"
+							codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationConcentricity\ConcentricityBasler1inch\ConcentricityBasler1inch\Concentricity.cs"
+							codeline="121"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:16.854"
+						timeRelativeToTestModuleStartTime="00:16.799"
+						timeWallClock="13:03:33"
+						time="00:16.854"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'SnapXUntitled.ButtonOK' at 50;10.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form//button[@text='&amp;OK']"
+							fullname="ConcentricityBasler1inchRepository.SnapXUntitled.ButtonOK"
+							id="28ccb800e37d4889aee1948551ba538b"
+							timeout="60000"
+							codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationConcentricity\ConcentricityBasler1inch\ConcentricityBasler1inch\Concentricity.cs"
+							codeline="125"
+							itemindex="11"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:23.537"
+						timeRelativeToTestModuleStartTime="00:23.482"
+						timeWallClock="13:03:39"
+						time="00:23.537"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'SnapXUntitled.Finish' at 81;9.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form//button[@text='Finish' and @enabled='True']"
+							fullname="ConcentricityBasler1inchRepository.SnapXUntitled.Finish"
+							id="7ea703cf87dc4d77873763bf27154fee"
+							timeout="270000"
+							codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationConcentricity\ConcentricityBasler1inch\ConcentricityBasler1inch\Concentricity.cs"
+							codeline="129"
+							itemindex="12"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:35.967"
+						timeRelativeToTestModuleStartTime="00:35.912"
+						timeWallClock="13:03:52"
+						time="00:35.967"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 10s.
+						</message>
+						<metainfo
+							itemindex="13"
+							codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationConcentricity\ConcentricityBasler1inch\ConcentricityBasler1inch\Concentricity.cs"
+							codeline="133"
+							loglvl="Info">
+						</metainfo>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="1.1m"
+					durationms="64845"
+					type="test-module"
+					rid="867828ef37c4068"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="SizeAcross"
+					displayName="SizeAcross"
+					moduleid="5ebbedc3-84d2-4149-b54b-b56a8b1226a6"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:46.059"
+						timeRelativeToTestModuleStartTime="00:00.003"
+						timeWallClock="13:04:02"
+						time="00:46.059"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'SnapXUntitled.Element94' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Snap-X - [Untitled]']/element[@controlid='94']"
+							fullname="ConcentricityBasler1inchRepository.SnapXUntitled.Element94"
+							id="120cb71da0f2471eb77ae9430ff5548c"
+							timeout="60000"
+							codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationConcentricity\ConcentricityBasler1inch\ConcentricityBasler1inch\SizeAcross.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:46.942"
+						timeRelativeToTestModuleStartTime="00:00.886"
+						timeWallClock="13:04:03"
+						time="00:46.942"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '{LMenu}'.
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationConcentricity\ConcentricityBasler1inch\ConcentricityBasler1inch\SizeAcross.cs"
+							codeline="86"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:47.246"
+						timeRelativeToTestModuleStartTime="00:01.190"
+						timeWallClock="13:04:03"
+						time="00:47.246"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'f'.
+						</message>
+						<metainfo
+							itemindex="2"
+							codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationConcentricity\ConcentricityBasler1inch\ConcentricityBasler1inch\SizeAcross.cs"
+							codeline="90"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:47.520"
+						timeRelativeToTestModuleStartTime="00:01.464"
+						timeWallClock="13:04:03"
+						time="00:47.520"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'o'.
+						</message>
+						<metainfo
+							itemindex="3"
+							codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationConcentricity\ConcentricityBasler1inch\ConcentricityBasler1inch\SizeAcross.cs"
+							codeline="94"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:47.796"
+						timeRelativeToTestModuleStartTime="00:01.740"
+						timeWallClock="13:04:04"
+						time="00:47.796"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 2s.
+						</message>
+						<metainfo
+							itemindex="4"
+							codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationConcentricity\ConcentricityBasler1inch\ConcentricityBasler1inch\SizeAcross.cs"
+							codeline="98"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:49.875"
+						timeRelativeToTestModuleStartTime="00:03.819"
+						timeWallClock="13:04:06"
+						time="00:49.875"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'D:\Joro\GIT_Automations\VERSION 3\AutomationConcentricity\Routine\SizeAcross_Basler1.mxy'.
+						</message>
+						<metainfo
+							itemindex="5"
+							codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationConcentricity\ConcentricityBasler1inch\ConcentricityBasler1inch\SizeAcross.cs"
+							codeline="101"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:59.075"
+						timeRelativeToTestModuleStartTime="00:13.019"
+						timeWallClock="13:04:15"
+						time="00:59.075"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '{Return}'.
+						</message>
+						<metainfo
+							itemindex="6"
+							codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationConcentricity\ConcentricityBasler1inch\ConcentricityBasler1inch\SizeAcross.cs"
+							codeline="105"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:59.353"
+						timeRelativeToTestModuleStartTime="00:13.297"
+						timeWallClock="13:04:15"
+						time="00:59.353"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'SnapXUntitled.Element94' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Snap-X - [Untitled]']/element[@controlid='94']"
+							fullname="ConcentricityBasler1inchRepository.SnapXUntitled.Element94"
+							id="120cb71da0f2471eb77ae9430ff5548c"
+							timeout="60000"
+							codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationConcentricity\ConcentricityBasler1inch\ConcentricityBasler1inch\SizeAcross.cs"
+							codeline="109"
+							itemindex="7"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:00.712"
+						timeRelativeToTestModuleStartTime="00:14.656"
+						timeWallClock="13:04:17"
+						time="01:00.712"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '{LMenu}'.
+						</message>
+						<metainfo
+							itemindex="8"
+							codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationConcentricity\ConcentricityBasler1inch\ConcentricityBasler1inch\SizeAcross.cs"
+							codeline="113"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:00.995"
+						timeRelativeToTestModuleStartTime="00:14.939"
+						timeWallClock="13:04:17"
+						time="01:00.995"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'f'.
+						</message>
+						<metainfo
+							itemindex="9"
+							codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationConcentricity\ConcentricityBasler1inch\ConcentricityBasler1inch\SizeAcross.cs"
+							codeline="117"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:01.274"
+						timeRelativeToTestModuleStartTime="00:15.218"
+						timeWallClock="13:04:17"
+						time="01:01.274"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'r'.
+						</message>
+						<metainfo
+							itemindex="10"
+							codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationConcentricity\ConcentricityBasler1inch\ConcentricityBasler1inch\SizeAcross.cs"
+							codeline="121"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:01.555"
+						timeRelativeToTestModuleStartTime="00:15.499"
+						timeWallClock="13:04:17"
+						time="01:01.555"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'SnapXUntitled.ButtonOK' at 50;10.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form//button[@text='&amp;OK']"
+							fullname="ConcentricityBasler1inchRepository.SnapXUntitled.ButtonOK"
+							id="28ccb800e37d4889aee1948551ba538b"
+							timeout="60000"
+							codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationConcentricity\ConcentricityBasler1inch\ConcentricityBasler1inch\SizeAcross.cs"
+							codeline="125"
+							itemindex="11"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:08.124"
+						timeRelativeToTestModuleStartTime="00:22.068"
+						timeWallClock="13:04:24"
+						time="01:08.124"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'SnapXUntitled.Finish' at 81;9.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form//button[@text='Finish' and @enabled='True']"
+							fullname="ConcentricityBasler1inchRepository.SnapXUntitled.Finish"
+							id="7ea703cf87dc4d77873763bf27154fee"
+							timeout="270000"
+							codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationConcentricity\ConcentricityBasler1inch\ConcentricityBasler1inch\SizeAcross.cs"
+							codeline="129"
+							itemindex="12"
+							loglvl="Info">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

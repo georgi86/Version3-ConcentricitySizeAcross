@@ -1,0 +1,74 @@
+﻿<repository
+id="a6622f48-150e-4751-8d80-9133d2aa51fb"
+name="ConcentricityBasler1inchRepository"
+rxversion="7.0">
+	<codegen
+	classname="ConcentricityBasler1inchRepository"
+	namespace="ConcentricityBasler1inch">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="cceee3c0-7f37-4740-90a1-215a33ebfe7e"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="b4937d61-8cd2-4fdc-9377-b645a582f265"
+		isrooted="True"
+		name="SnapXUntitled"
+		refpath="/form[@title='Snap-X - [Untitled]']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="unknown,nativewindow"
+			capname="unknown"
+			id="120cb71d-a0f2-471e-b77a-e9430ff5548c"
+			name="TitleBar"
+			refimgid="5314b808-434f-47f4-989f-f01da34c378a"
+			refpath="/form[@title='Snap-X - [Untitled]']/element[@controlid='94']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/element[@controlid='94']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="28ccb800-e37d-4889-aee1-948551ba538b"
+			name="ButtonOK"
+			refimgid="8058aa1c-51f0-42b4-b70a-2999c8de941d"
+			searchtimeout="120000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form//button[@text='&amp;OK']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="7ea703cf-87dc-4d77-8737-63bf27154fee"
+			name="Finish"
+			refimgid="48f48706-60a0-49ef-8f52-09568d2a01e8"
+			searchtimeout="240000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form//button[@text='Finish' and @enabled='True']
+			</item>
+			<basepath>
+				/form[@title='Snap-X - [Untitled]']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGqSURBVDhPjVM9SwNBEF2/EcUuaJLdvd1LqihY
+BBFtRPAfWKkgWNpZqKUpLARLCzEggk0gweQuKURtBCsFwcJGsRLsLAQFBRXju73R3MUoPnjs3bx5
+s7Ozd+wLTlxPukJX/+AGpX4jm0630SNjGcaaHaGvGhgNHa6O8n3JiMv1DLiF2IUj1BvZfRixgdmQ
+q1es7/67OnOEtVCWUpPVR4GxFojXISPR4foFG2TLItFP6Y1REno+ZESbnrEoZZRSfofL7TkkP9QK
+qMtiXA2S/AOFVKrdf4ikurFTsW7nnf1kssMkEA57e7twlGlwFwNfrXA9xPKcd2JAJ2GzXiePwZ6U
+NrrZRtFHrDnHshRJXttqM2gGD6qMNXmat0JfQuzZaNjImIKAQFfjs8jtAZK84pmghs7uSKohlICr
+orAB2p0N6h4xlx6SfaDqRygpbo2TxI7ZWCvOfRPUHZlIk+wDn+hauIh6Qmy5ErWlp9d3UeL2lDEG
+gaqjZrpC3QeT8X6L4qfBGOayQrbGcIWIlWLWiCv1hGFcDaOjxVoRlaPU/8ObBYz+P8LVOYUBxj4B
+q6oLt3Pkl98AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

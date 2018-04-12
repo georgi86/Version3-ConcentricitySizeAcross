@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# Ranorex Studio 7.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcentricityBasler1inch", "ConcentricityBasler1inch\ConcentricityBasler1inch.csproj", "{2DBBB13F-0AE9-4939-9E8B-033E27521E53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DFBECA0C-BE50-48EC-B0E0-2B072F1B60A5}"
+	ProjectSection(SolutionItems) = postProject
+		Ranorex = .\Ranorex.rxsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DBBB13F-0AE9-4939-9E8B-033E27521E53}.Debug|x86.Build.0 = Debug|x86
+		{2DBBB13F-0AE9-4939-9E8B-033E27521E53}.Debug|x86.ActiveCfg = Debug|x86
+		{2DBBB13F-0AE9-4939-9E8B-033E27521E53}.Release|x86.Build.0 = Release|x86
+		{2DBBB13F-0AE9-4939-9E8B-033E27521E53}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+EndGlobal
