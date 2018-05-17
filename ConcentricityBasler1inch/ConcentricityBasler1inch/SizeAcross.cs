@@ -138,6 +138,23 @@ namespace ConcentricityBasler1inch
             UtilityRun.RunSizeAcross(strSizeAcrossValues, strHardcodedValues);
             Delay.Duration(2000);
 
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXUntitled.TitleBar' at Center.", repo.SnapXUntitled.TitleBarInfo, new RecordItemIndex(7));
+            repo.SnapXUntitled.TitleBar.Click();
+            Delay.Milliseconds(200);
+
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{LMenu}'.", new RecordItemIndex(8));
+            Keyboard.Press("{LMenu}");
+            Delay.Milliseconds(0);
+
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'f'.", new RecordItemIndex(9));
+            Keyboard.Press("f");
+            Delay.Milliseconds(0);
+
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'n'.", new RecordItemIndex(10));
+            Keyboard.Press("n");
+            Delay.Milliseconds(0);
+
+
 
 
         }

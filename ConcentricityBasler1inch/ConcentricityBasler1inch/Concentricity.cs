@@ -80,6 +80,28 @@ namespace ConcentricityBasler1inch
 
             Init();
 
+            string strBigModeCaptionText = "Measure";
+
+            bool bBigMode = true;
+
+            try
+            {
+                Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXUntitled.MeasureText' at Center.", repo.SnapXUntitled.MeasureTextInfo, new RecordItemIndex(0));
+                repo.SnapXUntitled.MeasureText.MoveTo();
+                Delay.Milliseconds(200);
+
+                bBigMode = repo.SnapXUntitled.MeasureText.TextValue.CompareTo(strBigModeCaptionText) == 0 && repo.SnapXUntitled.MeasureText.Visible;
+            }
+
+            catch (Exception ex)
+            {
+            }
+
+            if (!bBigMode)
+
+                repo.SnapXUntitled.SwitchToSensor.Click();
+                Delay.Milliseconds(200);
+
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXUntitled.TitleBar' at Center.", repo.SnapXUntitled.TitleBarInfo, new RecordItemIndex(0));
             repo.SnapXUntitled.TitleBar.Click();
             Delay.Milliseconds(200);
