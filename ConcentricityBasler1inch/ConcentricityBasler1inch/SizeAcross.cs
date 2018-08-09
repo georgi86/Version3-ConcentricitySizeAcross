@@ -152,7 +152,11 @@ namespace ConcentricityBasler1inch
 
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'n'.", new RecordItemIndex(10));
             Keyboard.Press("n");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(300);
+
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXUntitled.ButtonGo' at 55;155.", repo.SnapXUntitled.ButtonGoInfo, new RecordItemIndex(0));
+            repo.SnapXUntitled.ButtonGo.Click("55;155");
+            Delay.Milliseconds(200);
 
 
 

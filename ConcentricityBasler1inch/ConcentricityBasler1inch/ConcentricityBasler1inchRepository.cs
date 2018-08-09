@@ -90,6 +90,7 @@ namespace ConcentricityBasler1inch
             RepoItemInfo _switchtosensorInfo;
             RepoItemInfo _buttonokInfo;
             RepoItemInfo _finishInfo;
+            RepoItemInfo _buttongoInfo;
 
             /// <summary>
             /// Creates a new SnapXUntitled  folder.
@@ -102,6 +103,7 @@ namespace ConcentricityBasler1inch
                 _switchtosensorInfo = new RepoItemInfo(this, "SwitchToSensor", "container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='40029']", 30000, null, "6ea261bd-7461-4360-9938-c9383d47177d");
                 _buttonokInfo = new RepoItemInfo(this, "ButtonOK", "container[@controlid='59648']/form//button[@text='&OK']", 120000, null, "28ccb800-e37d-4889-aee1-948551ba538b");
                 _finishInfo = new RepoItemInfo(this, "Finish", "container[@controlid='59648']/form//button[@text='Finish' and @enabled='True']", 240000, null, "7ea703cf-87dc-4d77-8737-63bf27154fee");
+                _buttongoInfo = new RepoItemInfo(this, "ButtonGo", "container[@controlid='59648']/form[@title='Untitled']//element[@controlid='59664']/container[@controlid='59648']/button[@text='Go']", 100000, null, "6963d63d-3dcc-4493-92ac-8da6d4cba747");
             }
 
             /// <summary>
@@ -242,6 +244,27 @@ namespace ConcentricityBasler1inch
                 get
                 {
                     return _finishInfo;
+                }
+            }
+
+            [RepositoryItem("6963d63d-3dcc-4493-92ac-8da6d4cba747")]
+            public virtual Ranorex.Button ButtonGo
+            {
+                get
+                {
+                    return _buttongoInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ButtonGo item info.
+            /// </summary>
+            [RepositoryItemInfo("6963d63d-3dcc-4493-92ac-8da6d4cba747")]
+            public virtual RepoItemInfo ButtonGoInfo
+            {
+                get
+                {
+                    return _buttongoInfo;
                 }
             }
         }

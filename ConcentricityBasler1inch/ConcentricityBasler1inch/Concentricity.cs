@@ -80,6 +80,17 @@ namespace ConcentricityBasler1inch
 
             Init();
 
+            if (File.Exists("D:\\Joro\\GIT_Automations\\VERSION 3\\AutomationConcentricity\\Reports\\Concentricity.STA"))
+            {
+                File.Delete("D:\\Joro\\GIT_Automations\\VERSION 3\\AutomationConcentricity\\Reports\\Concentricity.STA");
+            }            
+
+            if (File.Exists("D:\\Joro\\GIT_Automations\\VERSION 3\\AutomationConcentricity\\Reports\\SizeAcross.STA"))
+            {
+                File.Delete("D:\\Joro\\GIT_Automations\\VERSION 3\\AutomationConcentricity\\Reports\\SizeAcross.STA");
+            }
+                      
+
             string strBigModeCaptionText = "Measure";
 
             bool bBigMode = true;
@@ -98,9 +109,14 @@ namespace ConcentricityBasler1inch
             }
 
             if (!bBigMode)
-
+            {
                 repo.SnapXUntitled.SwitchToSensor.Click();
                 Delay.Milliseconds(200);
+            }
+            
+
+            
+            
 
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXUntitled.TitleBar' at Center.", repo.SnapXUntitled.TitleBarInfo, new RecordItemIndex(0));
             repo.SnapXUntitled.TitleBar.Click();
