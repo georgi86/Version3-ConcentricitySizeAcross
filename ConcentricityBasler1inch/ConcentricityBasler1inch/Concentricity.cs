@@ -80,14 +80,14 @@ namespace ConcentricityBasler1inch
 
             Init();
 
-            if (File.Exists("D:\\Joro\\GIT_Automations\\VERSION 3\\AutomationConcentricity\\Reports\\Concentricity.STA"))
+            if (File.Exists("C:\\JORO\\AUTOMATIONS\\GIT_Automations\\VERSION 3\\AutomationConcentricity\\Reports\\Concentricity.STA"))
             {
-                File.Delete("D:\\Joro\\GIT_Automations\\VERSION 3\\AutomationConcentricity\\Reports\\Concentricity.STA");
+                File.Delete("C:\\JORO\\AUTOMATIONS\\GIT_Automations\\VERSION 3\\AutomationConcentricity\\Reports\\Concentricity.STA");
             }            
 
-            if (File.Exists("D:\\Joro\\GIT_Automations\\VERSION 3\\AutomationConcentricity\\Reports\\SizeAcross.STA"))
+            if (File.Exists("C:\\JORO\\AUTOMATIONS\\GIT_Automations\\VERSION 3\\AutomationConcentricity\\Reports\\SizeAcross.STA"))
             {
-                File.Delete("D:\\Joro\\GIT_Automations\\VERSION 3\\AutomationConcentricity\\Reports\\SizeAcross.STA");
+                File.Delete("C:\\JORO\\AUTOMATIONS\\GIT_Automations\\VERSION 3\\AutomationConcentricity\\Reports\\SizeAcross.STA");
             }
                       
 
@@ -137,8 +137,8 @@ namespace ConcentricityBasler1inch
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(4));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'D:\\Joro\\GIT_Automations\\VERSION 3\\AutomationConcentricity\\Routine\\Concentricity_Basler1.mxy'.", new RecordItemIndex(5));
-            Keyboard.Press("D:\\Joro\\GIT_Automations\\VERSION 3\\AutomationConcentricity\\Routine\\Concentricity_Basler1.mxy");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'C:\\JORO\\AUTOMATIONS\\GIT_Automations\\VERSION 3\\AutomationConcentricity\\Routine\\Concentricity_Basler1.mxy'.", new RecordItemIndex(5));
+            Keyboard.Press("C:\\JORO\\AUTOMATIONS\\GIT_Automations\\VERSION 3\\AutomationConcentricity\\Routine\\Concentricity_Basler1.mxy");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}'.", new RecordItemIndex(6));
@@ -172,8 +172,8 @@ namespace ConcentricityBasler1inch
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(13));
             Delay.Duration(10000, false);
 
-            string strConcentricityValues = "D:\\Joro\\GIT_Automations\\VERSION 3\\AutomationConcentricity\\Reports\\concentricity.STA";       
-            string strHardcodedValues = "D:\\Joro\\GIT_Automations\\VERSION 3\\AutomationConcentricity\\Reports\\HardcodedConcentricity.STA";
+            string strConcentricityValues = "C:\\JORO\\AUTOMATIONS\\GIT_Automations\\VERSION 3\\AutomationConcentricity\\Reports\\concentricity.STA";       
+            string strHardcodedValues = "C:\\JORO\\AUTOMATIONS\\GIT_Automations\\VERSION 3\\AutomationConcentricity\\Reports\\HardcodedConcentricity.STA";
             UtilityRun.RunConcentricity(strConcentricityValues, strHardcodedValues);
             Delay.Duration(2000);
 

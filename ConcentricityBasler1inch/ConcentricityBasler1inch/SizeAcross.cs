@@ -98,8 +98,8 @@ namespace ConcentricityBasler1inch
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(4));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'D:\\Joro\\GIT_Automations\\VERSION 3\\AutomationConcentricity\\Routine\\SizeAcross_Basler1.mxy'.", new RecordItemIndex(5));
-            Keyboard.Press("D:\\Joro\\GIT_Automations\\VERSION 3\\AutomationConcentricity\\Routine\\SizeAcross_Basler1.mxy");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'C:\\JORO\\AUTOMATIONS\\GIT_Automations\\VERSION 3\\AutomationConcentricity\\Routine\\SizeAcross_Basler1.mxy'.", new RecordItemIndex(5));
+            Keyboard.Press("C:\\JORO\\AUTOMATIONS\\GIT_Automations\\VERSION 3\\AutomationConcentricity\\Routine\\SizeAcross_Basler1.mxy");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}'.", new RecordItemIndex(6));
@@ -133,8 +133,8 @@ namespace ConcentricityBasler1inch
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(13));
             Delay.Duration(10000, false);
 
-            string strSizeAcrossValues = "D:\\Joro\\GIT_Automations\\VERSION 3\\AutomationConcentricity\\Reports\\SizeAcross.STA";       
-            string strHardcodedValues = "D:\\Joro\\GIT_Automations\\VERSION 3\\AutomationConcentricity\\Reports\\HardcodedSizeAcross.STA";
+            string strSizeAcrossValues = "C:\\JORO\\AUTOMATIONS\\GIT_Automations\\VERSION 3\\AutomationConcentricity\\Reports\\SizeAcross.STA";       
+            string strHardcodedValues = "C:\\JORO\\AUTOMATIONS\\GIT_Automations\\VERSION 3\\AutomationConcentricity\\Reports\\HardcodedSizeAcross.STA";
             UtilityRun.RunSizeAcross(strSizeAcrossValues, strHardcodedValues);
             Delay.Duration(2000);
 

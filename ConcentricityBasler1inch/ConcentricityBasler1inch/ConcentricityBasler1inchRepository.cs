@@ -96,7 +96,7 @@ namespace ConcentricityBasler1inch
             /// Creates a new SnapXUntitled  folder.
             /// </summary>
             public SnapXUntitledAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("SnapXUntitled", "/form[@title='Snap-X - [Untitled]']", parentFolder, 30000, null, true, "b4937d61-8cd2-4fdc-9377-b645a582f265", "")
+                    base("SNAPXUntitled", "/form[@title='SNAP-X - [Untitled]']", parentFolder, 30000, null, true, "b4937d61-8cd2-4fdc-9377-b645a582f265", "")
             {
                 _titlebarInfo = new RepoItemInfo(this, "TitleBar", "element[@controlid='94']", 30000, null, "120cb71d-a0f2-471e-b77a-e9430ff5548c");
                 _measuretextInfo = new RepoItemInfo(this, "MeasureText", "container[@controlid='59648']/form[@title='Untitled']//text[@controlid='2394']", 30000, null, "9206a883-1c07-40a3-a6bf-bd7915659e46");
